@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		36AF0219297841FF000DE0EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF0218297841FF000DE0EA /* main.swift */; };
+		36AF022029785E9D000DE0EA /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF021F29785E9D000DE0EA /* Computer.swift */; };
+		36AF0222297860BD000DE0EA /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF0221297860BD000DE0EA /* Laptop.swift */; };
+		36AF022429786108000DE0EA /* SmartPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF022329786108000DE0EA /* SmartPhone.swift */; };
+		36AF022629786F47000DE0EA /* RepairService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF022529786F47000DE0EA /* RepairService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		36AF0215297841FF000DE0EA /* Month-2(Дз-3) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Month-2(Дз-3)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AF0218297841FF000DE0EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		36AF021F29785E9D000DE0EA /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		36AF0221297860BD000DE0EA /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		36AF022329786108000DE0EA /* SmartPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPhone.swift; sourceTree = "<group>"; };
+		36AF022529786F47000DE0EA /* RepairService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				36AF0218297841FF000DE0EA /* main.swift */,
+				36AF021F29785E9D000DE0EA /* Computer.swift */,
+				36AF0221297860BD000DE0EA /* Laptop.swift */,
+				36AF022329786108000DE0EA /* SmartPhone.swift */,
+				36AF022529786F47000DE0EA /* RepairService.swift */,
 			);
 			path = "Month-2(Дз-3)";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AF022429786108000DE0EA /* SmartPhone.swift in Sources */,
+				36AF022629786F47000DE0EA /* RepairService.swift in Sources */,
+				36AF022029785E9D000DE0EA /* Computer.swift in Sources */,
 				36AF0219297841FF000DE0EA /* main.swift in Sources */,
+				36AF0222297860BD000DE0EA /* Laptop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
